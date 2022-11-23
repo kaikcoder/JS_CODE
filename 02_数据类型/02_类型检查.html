@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>类型检查</title>
+    <script>
+        /* 
+        1.大整形只能和大整形计算
+        2.typeof运算符
+           -typeof用来检查不同的类型
+           -它会根据不同的值返回不同的结果
+           -typeof检查的是变量里面存储的值
+           -使用typeof返回的是一个字符串
+        */
+        let a = 10;
+        let b = 10n;
+        console.log(typeof a);//number
+        console.log(typeof b);//bigint
+        a + b;
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
